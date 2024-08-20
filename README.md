@@ -1,11 +1,9 @@
-Here’s a draft for your README file based on the files you've provided:
-
 ---
 
 # Project: Attendance and Registration System
 
 ## Overview
-This project is a web-based application designed to manage student registration and attendance for "HOLY ANGELS MATRICULATION HR. SEC. SCHOOL". The system includes the following key files:
+This project is a web-based application designed to manage student registration and attendance. The system includes the following key files:
 
 ### Files and Their Functions:
 1. **register.html**
@@ -67,4 +65,5 @@ This project is a web-based application designed to manage student registration 
 - **Styling**: Modify `register.css` to change the look and feel of the registration page.
 - **Form Fields**: Edit `register.html` to add or remove input fields as needed.
 - **Backend Logic**: Adjust `register.php` and `attendance12.php` to fit your specific database schema or add more functionality.
+
 ---
