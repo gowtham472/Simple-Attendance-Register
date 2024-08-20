@@ -3,7 +3,7 @@
 # Project: Attendance and Registration System
 
 ## Overview
-This project is a web-based application designed to manage student registration and attendance. The system includes the following key files:
+This project is a web-based application designed to manage student registration and attendance. The system includes the following key files.
 
 ### Files and Their Functions:
 1. **register.html**
