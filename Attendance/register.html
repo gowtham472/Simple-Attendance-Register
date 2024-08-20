@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="register.css" />
+  <title>Login</title>
+</head>
+<style>
+  /* Style adjustments for buttons */
+  #onee {
+    font-family: "Solway", serif;
+    font-size: 15px;
+    width: 75%;
+    color: #ffffff;
+    background-image: linear-gradient(144deg, #55ad53, #65c75c 50%, #6fc250);
+    box-shadow: rgba(65, 252, 215, 0.2) 0 15px 30px -5px;
+    padding: 16px 20px;
+    margin: 8px 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #onee:hover {
+    background: none;
+    background-image: linear-gradient(rgb(0, 147, 98), rgb(0, 156, 104), rgb(0, 151, 53));
+    transform: scale(0.9);
+  }
+
+  #onea {
+    font-family: "Solway", serif;
+    font-size: 15px;
+    width: 75%;
+    color: #ffffff;
+    background-image: linear-gradient(144deg, #ff4040, #f34242 50%, #eb3b00);
+    box-shadow: rgba(252, 65, 65, 0.2) 0 15px 30px -5px;
+    padding: 16px 20px;
+    margin: 8px 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #onea:hover {
+    background: none;
+    background-image: linear-gradient(rgb(255, 30, 30), rgb(255, 30, 30), rgb(255, 30, 30));
+    transform: scale(0.9);
+  }
+</style>
+<body id="form">
+  <br />
+  <br />
+  <h2 style="text-align: center">HOLY ANGELS MATRICULATION HR. SEC. SCHOOL</h2>
+  <div class="main">
+    <h1>Registration</h1>
+    <div class="ing">
+      <form id="run" action="register.php" method="post" enctype="multipart/form-data">
+        <h3>
+          Name:<br /><input type="text" placeholder="Name" name="name" required />
+        </h3>
+        <h3>
+          Id Number:<br /><input type="password" placeholder="Id Number" name="idnum" id="idnum" required />
+        </h3>
+        <div style="text-align: center;">
+          <button id="onee" type="submit">Update</button>
+        </div>
+        <div style="text-align: center;">
+          <a href="attendance12.php">
+            <button id="onea" type="button">Close</button>
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
