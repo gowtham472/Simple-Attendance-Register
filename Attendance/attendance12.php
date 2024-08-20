@@ -223,10 +223,10 @@
         
 
         <?php
-          // Step 1: Establish the database connection
+          // Establish the database connection
           $servername = "localhost";
           $username = "root";
-          $password = "Gowthamk@0906=18";
+          $password = "";
           $dbname = "logindb";
 
           // Create connection
@@ -237,21 +237,21 @@
               die("Connection failed: " . $conn->connect_error);
           }
 
-          // Step 2: Fetch the names from the 'attendance_register' table
+          // Fetch the names from the 'attendance_register' table
           $sql = "SELECT name, id FROM attendance_register";
           $result = $conn->query($sql);
 
           if ($result === false) {
               echo "Error: " . $conn->error;
           } else {
-              // Step 3: Display the fetched names in a table with radio buttons
+              // Display the fetched names in a table with radio buttons
               echo "<table border='0'>";
 
               while ($row = $result->fetch_assoc()) {
                   // Start a new table row for each name
                   echo "<tr>";
 
-                  // Display the name in the first column
+                  // Display the name in the first column and id
                   $name = htmlspecialchars($row['name']);
                   $id = htmlspecialchars($row['id']);
 
